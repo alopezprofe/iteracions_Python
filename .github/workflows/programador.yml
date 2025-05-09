@@ -1,0 +1,39 @@
+name: Executar programa de temperatura cada dia
+
+on:
+  schedule:
+    - cron: '/6 * * * *'  # 23:59 hora espanyola (UTC+2)
+  workflow_dispatch:
+
+jobs:
+  execucio-temperatura:
+    runs-on: ubuntu-latest
+    
+    # Configura els permisos per escriure al repositori
+    permissions:
+      contents: write  # Permet al workflow fer push
+
+    steps:
+      - name: Clonar el repositori
+        uses: actions/checkout@v3
+        with:
+          persist-credentials: true  # Permet fer push
+
+      - name: Instal·lar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Instal·lar dependències
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+        
+      - name: Instal·lar Tkinter (Linux)
+        run: sudo apt-get update && sudo apt-get install -y python3-tk
+
+      - name: Executar proves amb pytest
+        run: pytest
+
+
+
