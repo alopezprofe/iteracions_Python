@@ -2,7 +2,7 @@ name: Executar programa de temperatura cada dia
 
 on:
   schedule:
-    - cron: '/6 * * * *'  # 23:59 hora espanyola (UTC+2)
+    - cron: '*/6 * * * *'  # 23:59 hora espanyola (UTC+2)
   workflow_dispatch:
 
 jobs:
