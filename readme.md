@@ -4,7 +4,7 @@ Document fet amb: Editor.md
 
 ![](https://pandao.github.io/editor.md/images/logos/editormd-logo-180x180.png)
 
-![](https://img.shields.io/github/stars/alopezprofe/iteracions_Python.svg) ![](https://img.shields.io/github/forks/alopezprofe/iteracions_Python.svg) ![](https://img.shields.io/github/tag/alopezprofe/iteracions_Python.svg) ![](https://img.shields.io/github/release/alopezprofe/iteracions_Python.svg) ![](https://img.shields.io/github/issues/alopezprofe/iteracions_Python.svg)
+![](https://img.shields.io/github/stars/alopezprofe/iteracions_Python.svg) ![](https://img.shields.io/github/forks/alopezprofe/iteracions_Python.svg) ![](https://img.shields.io/github/issues/alopezprofe/iteracions_Python.svg)
 
 [Curs de Moodle del mòdul 0487: Entorns de Desenvolupament](https://educaciodigital.cat/inslacetania/moodle/course/view.php?id=17871)
 
