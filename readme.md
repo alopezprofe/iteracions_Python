@@ -2,15 +2,53 @@
 
 Document fet amb: Editor.md
 
-![](https://pandao.github.io/editor.md/images/logos/editormd-logo-180x180.png)
+<p align="center" width="100%">
+    <img width="25%" src="https://pandao.github.io/editor.md/images/logos/editormd-logo-180x180.png">
+</p>
 
 ![](https://img.shields.io/github/stars/alopezprofe/iteracions_Python.svg) ![](https://img.shields.io/github/forks/alopezprofe/iteracions_Python.svg) ![](https://img.shields.io/github/issues/alopezprofe/iteracions_Python.svg)
 
 [Curs de Moodle del mòdul 0487: Entorns de Desenvolupament](https://educaciodigital.cat/inslacetania/moodle/course/view.php?id=17871)
 
-**Table of Contents**
+### Un exemple senzill <a name="punt1"></a>
+```Python
+def recorrer_dic(d):
+  """
+  Recorre un diccionari i mostra les seves claus i valors
+  """
+  for clau in d:
+    print(clau, d[clau])
+```
 
-Diagrama de classes:
+### Un altre exemple, amb doctest <a name="punt2"></a>
+```Python
+def recorrer_l(l):
+    """
+    Funció que recorre una llista de nombres i retorna la
+    suma total dels números parells. Ignora els imparells.
+    >>> recorrer_l([3, 4, 7, 2, 8, 9, 5, 1, 12])
+    26
+    """
+    suma = 0
+    for el in l:
+        if el % 2 == 0:
+            suma += el  
+    return suma
+```
+
+### El mateix exemple anterior però amb List Comprehension <a name="punt3"></a>
+```Python
+def recorrer_l_comp(l):
+    """
+    Funció que recorre una llista de nombres i retorna la
+    suma total dels números parells. Ignora els imparells.
+    >>> recorrer_l_comp([3, 4, 7, 2, 8, 9, 5, 1, 12])
+    26
+    """ 
+    return sum([el for el in l if el % 2 == 0])
+```
+
+### Diagrama de classes: <a name="punt4"></a>
 
 ```mermaid
 ---
@@ -39,23 +77,4 @@ classDiagram
         +bool is_wild
         +run()
     }
-```
-
-### Funcions de mostra <a name="punt1"></a>
-```Python
-def recorrer_dic(d):
-  for clau in d:
-    print(clau, d[clau]
-```
-
-### Testing a Python <a name="punt2"></a>
-```Python
-def recorrer_dic(l):
-  """
-  Funció que recorre una llista i mostra els seus valors
-  >>> recorrer_dic(["groc", "vermell", "blau"])
-  [ 'groc', 'vermell', 'blau' ] 
-  """
-  for element in l:
-    print(element)
 ```
