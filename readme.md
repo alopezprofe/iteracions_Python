@@ -8,7 +8,7 @@ Document fet amb: Editor.md
 
 ![](https://img.shields.io/github/stars/alopezprofe/iteracions_Python.svg) ![](https://img.shields.io/github/forks/alopezprofe/iteracions_Python.svg) ![](https://img.shields.io/github/issues/alopezprofe/iteracions_Python.svg)
 
-[Curs de Moodle del mòdul 0487: Entorns de Desenvolupament](https://educaciodigital.cat/inslacetania/moodle/course/view.php?id=17871)
+[Curs de Moodle del mòdul 0487: Entorns de Desenvolupament](https://educaciodigital.cat/inslacetania/moodle/course/view.php?id=19611)
 
 [Documentació generada amb Pydoc del fitxer math_lib](https://htmlpreview.github.io/?https://github.com/alopezprofe/iteracions_Python/blob/main/math_lib.html)
 
