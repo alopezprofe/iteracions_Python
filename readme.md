@@ -11,6 +11,7 @@ Document fet amb: Editor.md
 [Curs de Moodle del mòdul 0487: Entorns de Desenvolupament](https://educaciodigital.cat/inslacetania/moodle/course/view.php?id=19611)
 
 [Documentació generada amb Pydoc del fitxer math_lib](https://htmlpreview.github.io/?https://github.com/alopezprofe/iteracions_Python/blob/main/math_lib.html)
+[Documentació generada (GitHub Pages)](https://github.com/alopezprofe/iteracions_Python/blob/main/docs/math_lib.html)
 
 ### Un exemple senzill <a name="punt1"></a>
 ```Python
