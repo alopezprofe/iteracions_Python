@@ -45,6 +45,10 @@ def divideix(a, b):
     return a / b
 
 def calcula_mitjana(*args):
+    """
+    Retorna la mitjana. No s'ha fet doctest perquè es 
+    fan test en el programa.
+    """
     return(sum(*args)/len(*args))
 
 if __name__ == "__main__":
